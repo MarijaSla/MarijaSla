@@ -16,8 +16,10 @@ Pojmovi iz matematike koji se koriste u kombinatorici:
 Neke osobine binomnog koeficijenta: <br>
  <ul> <img style="width:150px; max-width:98%" src="mnmr/2.png"> </ul> 
  
- <ul>Pri rešavanju kombinatornih zadataka gotovo uvek se sreću osnovne kombinatorne konfiguracije kao sto su permutacije, varijacije i kombinacije. 
- </ul>
+Pri rešavanju kombinatornih zadataka gotovo uvek se sreću osnovne kombinatorne konfiguracije kao sto su permutacije, varijacije i kombinacije. 
+
+<br>
+<br>
 <br>
 <b>Permutacije bez ponavljanja</b>
  <br>
@@ -26,7 +28,7 @@ Permutacija bez ponavljanja skupa A koji ima n elemenata je svaki niz u kome se 
 <br>
 <i>Primer</i>:  Na kolina načina 4 osobe mogu stati u red? 
 <br>
-<ul>Rešenje: Osobe možemo poređati u red na 4!=4*3*2*1=24 načina. </ul>
+Rešenje: Osobe možemo poređati u red na 4!=4*3*2*1=24 načina. 
 <br>
 <br>
 <b>Permutacije sa ponavljanjem</b>
@@ -35,50 +37,53 @@ Neka je dat skup od m elemenata A={a1, a2 ,…, am}. Svaki niz dužine k1+ k2+�
 <br>
 <br> 
 <i>Primer</i>: Koliko se različitih šestocifrenih brojeva može sastaviti od cifara iz 1,2,2,2,3,3? 
-<ul>Rešenje: Pošto su u pitanju šestocifreni brojevi n=6. Cifra 1 se pojavljuje jednom i zbog toga je  k1=1, cifra 2 se pojavljuje 3 puta što znaci da je je  k2=3, dok je je  k3=2. Iz toga sledi da je ukupan broj jednak  𝑃 = 6! 1!∗3!∗.2! . 
- </ul>
+<br>
+Rešenje: Pošto su u pitanju šestocifreni brojevi n=6. Cifra 1 se pojavljuje jednom i zbog toga je  k1=1, cifra 2 se pojavljuje 3 puta što znaci da je je  k2=3, dok je je  k3=2. Iz toga sledi da je ukupan broj jednak  𝑃 = 6! 1!∗3!∗.2! . 
 <br>
 <br>
 <b>Varijacije bez ponavljanja</b>
 <br>
-Varijacija bez ponavljanja k-te klase skupa A od n elemenata je svaki niz k međusobrno različitih elemenata i broj takvih nizova iznosi  <ul> <img style="width:200px; max-width:98%" src="mnmr/3.png"> </ul> 
+Varijacija bez ponavljanja k-te klase skupa A od n elemenata je svaki niz k međusobrno različitih elemenata i broj takvih nizova iznosi 
+ <ul> <img style="width:200px; max-width:98%" src="mnmr/3.png"> </ul> 
  
-<br>
-<br>
+
 <i>Primer</i>: Koliko ima trocifrenih brojeva koji se mogu obrazovati od cifara iz skupa A={1,2,3,4,5,6,7,8,9} tako da su sve cifre različite? 
-<ul>Rešenje: Potrebne su nam 3 cifre i zbog toga je k=3, ukupan broj elemenata skupa je 9, zbog toga je n=9. Potrebno je da izračunamo varijacije bez ponavljanja klase 3 skupa koji ima 9 elemenata i to će iznositi <ul> <img style="width:150px; max-width:98%" src="mnmr/4.png"> </ul> 
- </ul>
+<br>
+Rešenje: Potrebne su nam 3 cifre i zbog toga je k=3, ukupan broj elemenata skupa je 9, zbog toga je n=9. Potrebno je da izračunamo varijacije bez ponavljanja klase 3 skupa koji ima 9 elemenata i to će iznositi <ul> <img style="width:150px; max-width:98%" src="mnmr/4.png"> </ul> 
+
 <br>
 <br>
 
 <b>Varijacije sa ponavljanjem</b>
 <br> 
 Varijacije k-te klase skupa A od n elemenata pri čemu se elementi mogu ponavljati nazivaju se varijacije sa ponavljanjem i važi <ul> <img style="width:150px; max-width:98%" src="mnmr/5.png"> </ul> 
-<br>
-<br>
+
 <i>Primer</i>:  Koliko ima trocifrenih brojeva koji se mogu obrazovati od cifara iz skupa A={1,2,3,4,5,6,7,8,9} ako znamo da se cifre mogu ponavljati? 
-<ul>Rešenje: Potrebne su nam 3 cifre i zbog toga je k=3, ukupan broj elemenata skupa je 9, zbog toga jen=9. Potrebno je da izračunamo varijacije sa ponavljanjem klase 3 skupa koji ima 9 elemenata i to će iznositi<ul> <img style="width:120px; max-width:98%" src="mnmr/6.png"> </ul> 
- </ul>
+<br>
+Rešenje: Potrebne su nam 3 cifre i zbog toga je k=3, ukupan broj elemenata skupa je 9, zbog toga jen=9. Potrebno je da izračunamo varijacije sa ponavljanjem klase 3 skupa koji ima 9 elemenata i to će iznositi<ul> <img style="width:120px; max-width:98%" src="mnmr/6.png"> </ul> 
+ 
 <br>
 
 <b>Kombinacije bez ponavljanja</b>
 <br>
 Kombinacija bez ponavljanja k-te klase skupa A koji ima n elemenata je svaki k-točlani podskup skupa A i iznosi <ul> <img style="width:150px; max-width:98%" src="mnmr/7.png"> </ul> 
 <br>
-<br>
+
 <i>Primer</i>: U kutiji je 7 lopti. Na koliko načina možemo izabrati 4 lopte? 
-<ul>Rešenje: Ukupan broj elemenata skupa je 7. Potrebne su nam 4 lopte. Iz toga zaključujemo da je n=7 i k=4. Lopte možemo odabrati na <ul> <img style="width:120px; max-width:98%" src="mnmr/8.png"> </ul>  načina. 
- </ul>
+<br>
+Rešenje: Ukupan broj elemenata skupa je 7. Potrebne su nam 4 lopte. Iz toga zaključujemo da je n=7 i k=4. Lopte možemo odabrati na <ul> <img style="width:120px; max-width:98%" src="mnmr/8.png"> </ul>  načina. 
+
 <br>
 <br>
 <b>Kombinacije sa ponavljanjem </b>
 <br>
 Ako se iz n-točlanog kupa A bira jedan po jedan element sa vraćanjem, i tako k puta, i ako nije bitan redosled, već samo koji element je i koliko puta izabran onda se rezultat izbora naziva kombinacija kte klase sa n elemenata sa ponavljanjem i iznosi <ul> <img style="width:150px; max-width:98%" src="mnmr/9.png"> </ul>  
  <br>
-<br>
+
 <i>Primer</i>: Na koliko načina turista od 10 razglednica može kupiti 3? 
-<ul>Rešenje: Ukupan broj razglednica je n=10, njemu se potrebne k=3 razglednice. Iz toga sledi da je ukupan broj načina jednak <ul> <img style="width:120px; max-width:98%" src="mnmr/10.png"> </ul> 
- </ul>
+<br>
+Rešenje: Ukupan broj razglednica je n=10, njemu se potrebne k=3 razglednice. Iz toga sledi da je ukupan broj načina jednak <ul> <img style="width:120px; max-width:98%" src="mnmr/10.png"> </ul> 
+ 
  
 <br>
 <br> 
@@ -152,5 +157,6 @@ Zadaci za vežbu:
 <ul>Rešenje: Predjelo možemo odabrati na 3 načina, supu na 2 načina, glavno jelo na 4 načina i desert na 10 načina. Ukupan broj različitih obroka iznosi: 3*2*4*10 = 240.
 </ul>
 </ul>
+ 
  
 <ul>
