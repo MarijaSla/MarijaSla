@@ -14,7 +14,7 @@ Pojmovi iz matematike koji se koriste u kombinatorici:
 
  
 Neke osobine binomnog koeficijenta: <br>
- <ul> <img style="width:150px; max-width:98%" src="mnmr/2.png"> </ul> 
+ <ul> <img style="width:150px; max-width:98%" src="file:///C:/Users/Maja/Desktop/mnmr/24.png"> </ul> 
  
 Pri rešavanju kombinatornih zadataka gotovo uvek se sreću osnovne kombinatorne konfiguracije kao sto su permutacije, varijacije i kombinacije. 
 
